@@ -66,14 +66,14 @@
         rogu_pass: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp KP_NUMBER_1 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_8 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp RETURN &kp LG(LS(LEFT_ARROW)) &kp DEL>;
+            bindings = <&kp KP_NUMBER_1 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_8 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp RETURN &kp LG(LS(UP_ARROW)) &kp DEL>;
             label = "NEW_MACRO";
         };
 
         line_pass: rine_pass {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(T) &kp A &kp S &kp A &kp K &kp I &kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_4 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp RET &kp LG(LS(LEFT_ARROW)) &kp DELETE>;
+            bindings = <&kp LS(T) &kp A &kp S &kp A &kp K &kp I &kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_4 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp RET &kp LG(LS(UP_ARROW)) &kp DELETE>;
             label = "RINE_PASS";
         };
     };

@@ -91,18 +91,18 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &mkp MB2  &trans     &trans     &trans  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F6    &mkp LCLK  &mkp RCLK  &trans  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1  &trans     &trans     &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &kp F12
+&trans  &trans  &trans  &trans  &trans                      &mkp MB2  &trans     &trans     &trans   &kp F5
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F6    &mkp LCLK  &mkp RCLK  &lt 5 C  &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1  &trans     &trans     &trans   &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                   &kp F12
             >;
         };
 
         NUM {
             bindings = <
-&trans  &kp C_VOLUME_DOWN  &trans  &kp C_VOLUME_UP  &trans                            &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
-&trans  &kp F14            &trans  &kp F15          &trans  &trans      &trans        &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS
-&trans  &trans             &trans  &trans           &trans  &trans      &trans        &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
+&trans  &kp C_VOLUME_DOWN  &trans  &kp C_VOLUME_UP  &trans                            &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
+&trans  &kp F14            &trans  &kp F15          &trans  &trans      &trans        &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RC(KP_PLUS)
+&trans  &trans             &trans  &trans           &trans  &trans      &trans        &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_EQUAL
 &trans  &trans             &trans  &trans           &trans  &trans      &kp ASTERISK  &kp SLASH                                               &trans
             >;
         };
@@ -129,10 +129,10 @@
 
         SCROLL {
             bindings = <
-&trans  &kp LA(LG(LEFT_ARROW))  &kp UP_ARROW    &kp LA(LG(RIGHT))  &trans                      &kp LS(NUMBER_4)  &kp LS(NUMBER_1)  &kp LS(N9)       &kp LS(N0)           &kp MINUS
-&trans  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT          &trans  &trans      &trans  &kp AMPERSAND     &kp LS(NUMBER_2)  &kp LS(AT_SIGN)  &kp LS(RIGHT_BRACE)  &kp EQUAL
-&trans  &kp LC(LG(LEFT_ARROW))  &trans          &kp LC(LG(RIGHT))  &trans  &trans      &trans  &trans            &trans            &kp LESS_THAN    &kp GREATER_THAN     &kp SLASH
-&trans  &trans                  &trans          &trans             &trans  &trans      &trans  &trans                                                                    &kp LS(LG(NUMBER_4))
+&trans  &kp LA(LG(LEFT_ARROW))  &kp UP_ARROW    &kp LA(LG(RIGHT))  &trans                      &kp LS(NUMBER_4)  &kp EXCLAMATION  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp MINUS
+&trans  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT          &trans  &trans      &trans  &kp AMPERSAND     &kp LS(AT_SIGN)  &kp LS(LEFT_BRACE)        &kp LS(RIGHT_BRACE)        &lt 1 EQUAL
+&trans  &kp LC(LG(LEFT_ARROW))  &trans          &kp LC(LG(RIGHT))  &trans  &trans      &trans  &trans            &trans           &kp LESS_THAN             &kp GREATER_THAN           &kp SLASH
+&trans  &trans                  &trans          &trans             &trans  &trans      &trans  &trans                                                                                  &kp LS(LG(NUMBER_4))
             >;
         };
 

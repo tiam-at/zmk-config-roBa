@@ -114,10 +114,10 @@
 
         NUM {
             bindings = <
-&trans  &kp C_VOLUME_DOWN  &trans      &kp C_VOLUME_UP  &trans                            &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp RC(KP_NUMBER_9)  &kp KP_MINUS
-&trans  &kp F14            &trans      &kp F15          &trans  &trans      &trans        &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp KP_PLUS
-&trans  &line_pass         &rogu_pass  &trans           &trans  &trans      &trans        &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &kp KP_EQUAL
-&trans  &trans             &trans      &trans           &trans  &trans      &kp ASTERISK  &kp SLASH                                                               &trans
+&trans  &kp C_VOLUME_DOWN  &trans      &kp C_VOLUME_UP  &trans                            &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
+&trans  &kp F14            &trans      &kp F15          &trans  &trans      &trans        &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
+&trans  &line_pass         &rogu_pass  &trans           &trans  &trans      &trans        &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL
+&trans  &trans             &trans      &trans           &trans  &trans      &kp ASTERISK  &kp SLASH                                                           &trans
             >;
         };
 

@@ -105,10 +105,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &mkp MB2  &trans     &trans     &trans   &kp F5
+&trans  &trans  &trans  &trans  &trans                      &mkp MB2  &trans     &trans     &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F6    &mkp LCLK  &mkp RCLK  &lt 5 C  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1  &trans     &trans     &trans   &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                   &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp MB1  &trans     &trans     &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                   &trans
             >;
         };
 

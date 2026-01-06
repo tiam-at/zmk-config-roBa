@@ -59,8 +59,22 @@
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            bindings = <&macro_param_1to1>;
             label = "TO_LAYER_0";
+        };
+
+        rogu_pass: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp KP_NUMBER_1 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_8 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp RETURN &kp LG(LS(LEFT_ARROW)) &kp DEL>;
+            label = "NEW_MACRO";
+        };
+
+        line_pass: rine_pass {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(T) &kp A &kp S &kp A &kp K &kp I &kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_1 &kp KP_NUMBER_4 &kp KP_NUMBER_1 &kp KP_NUMBER_2>;
+            label = "RINE_PASS";
         };
     };
 
@@ -100,10 +114,10 @@
 
         NUM {
             bindings = <
-&trans  &kp C_VOLUME_DOWN  &trans  &kp C_VOLUME_UP  &trans                            &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
-&trans  &kp F14            &trans  &kp F15          &trans  &trans      &trans        &trans        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RC(KP_PLUS)
-&trans  &trans             &trans  &trans           &trans  &trans      &trans        &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_EQUAL
-&trans  &trans             &trans  &trans           &trans  &trans      &kp ASTERISK  &kp SLASH                                               &trans
+&trans  &kp C_VOLUME_DOWN  &trans      &kp C_VOLUME_UP  &trans                            &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp RC(KP_NUMBER_9)  &kp KP_MINUS
+&trans  &kp F14            &trans      &kp F15          &trans  &trans      &trans        &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp KP_PLUS
+&trans  &line_pass         &rogu_pass  &trans           &trans  &trans      &trans        &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3      &kp KP_EQUAL
+&trans  &trans             &trans      &trans           &trans  &trans      &kp ASTERISK  &kp SLASH                                                               &trans
             >;
         };
 

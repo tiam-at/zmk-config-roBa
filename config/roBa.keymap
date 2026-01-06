@@ -99,8 +99,6 @@
 &mt LEFT_SHIFT Z    &kp X           &kp C                 &kp V       &kp B      &trans       &trans         &kp N    &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_COMMAND    &kp LEFT_SHIFT  &kp RC(LEFT_CONTROL)  &kp ESCAPE  &kp SPACE  &kp TAB      &kp BACKSPACE  &kp RET                             &kp DEL
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         FUNCTION {
